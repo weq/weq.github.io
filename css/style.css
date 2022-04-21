@@ -1,10 +1,33 @@
 body {
-    background-color: black;
+    background-color: #2C3531;
     font-family: 'Courier New', Courier, monospace;
-    color: wheat;
+    color: #D9B08C;
 }
+/* center div */
 .mainBlock {
-    background-color: gray;
+    background-color: #116466;
     position: absolute;
     padding: 0px;
+    margin: 0px;
+    /* center this block */
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.header {
+    background-color: #116466;
+    position: absolute;
+    padding: 0px;
+    top: 20%;
+    
+}
+
+.title {
+    background-color: #116466;
+    position: absolute;
+    padding: 0px;
+    top: auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
